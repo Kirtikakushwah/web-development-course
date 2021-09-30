@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+
+<body>
+    <div class="container">
+        This is about loops
+    </div>
+    <script>
+        console.log("This coding is apart of javascript");
+        //let i=0;
+        //for (i=0; i<3; i++){
+        //  console.log(i);
+        //}
+        let Friends = ["rohan", "shubham", "pooja", "nikita", "skillf"];
+        for (let index = 0; index < Friends.length; index++) {
+            console.log("Hello Friends," + Friends[index]);
+
+        }
+
+        Friends.forEach(function f(element) {
+            console.log("Hello Friends," + element + " to modern javascript");
+
+        });
+
+        for (element of Friends) {
+            console.log("Hello Friends," + element + " to modern javascript again");
+        }
+
+        let employee = {
+        name: "kirtika",
+        salary: 20000,
+        study: "Cse"
+    }
+
+    // Use this loop to iterate over objects in JavaScript
+     for(key in employee){
+        console.log(`The ${key} of employee is ${employee[key]}`);
+    }
+    let i =0;
+    while(i<4){
+        console.log(`${i} is less than 4`);
+        i++;
+    }
+    let j =34;
+    do{
+        console.log(`${j} is less than 4 and we are inside do while loop`);
+        j++;
+    }while(j<4); 
+    </script>
+
+</body>
+
+</html>

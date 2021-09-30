@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math object</title>
+</head>
+
+<body>
+    <div class="container">
+        This is a math object programming
+    </div>
+    <script>
+        let m = Math;
+        console.log(m);
+
+        //printing the constants from math objects
+        console.log("the value of Math.E is", Math.E);
+        console.log("the value of Math.PI is", Math.PI);
+        console.log("the value of Math.LN2 is", Math.LN2);
+        console.log("the value of Math.SQRT1_2 is", Math.SQRT1_2);
+        console.log("the value of Math.LOG2E is", Math.LOG2E);
+
+        //Printing the function from the math objects
+        let a = 34.64534;
+        let b = 89;
+
+        console.log("The value of a and b is ", a, b);
+        console.log("The value of a and b rounded is ", Math.round(a), Math.round(b));
+
+        //ceil and floor
+        console.log("5.8 rounded up to the nearest integer is", Math.ceil(5.8));
+       console.log("5.8 rounded down to the nearest integer is", Math.floor(5.8));
+
+       //trignometrical function
+       console.log("the value of sin(pi) is", Math.sin(Math.PI/2))
+       console.log("the value of tan(pi) is", Math.tan(Math.PI/2))
+       console.log("the value of cos(pi) is", Math.cos(Math.PI/2))
+
+       //minimum and maximum
+       console.log("mininmum value of 4,5 ,6 is", Math.min(4, 5, 6));
+       console.log("maxinmum value of 4,5 ,6 is", Math.max(4, 5, 6));
+
+       //Random number
+       let r = Math.random();
+       console.log("the random number is", r);
+
+       let a1= 50;
+      let  b1=60;
+      let r50_60 = a1 + (b1-a1)*Math.random();
+      console.log("the random number is", r50_60)
+
+    </script>
+</body>
+
+</html>

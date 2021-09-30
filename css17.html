@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addvanced css selector</title>
+    <style>
+        h1 {
+            background-color: red;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        div p {
+            color: (papayawhip);
+            background-color: orange;
+            font-weight: bold;
+        }
+
+        div li p {
+            color: yellow;
+            background-color: green;
+            font-weight: bold;
+
+        }
+        div > p{
+background-color: lightblue;
+color: white;
+font-size: bold;
+        }
+        div + p{
+            background-color: rosybrown;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is more selector on css</h1>
+    <div class="container">
+    <div class="row">      
+    <ul>
+    <li>       
+    <p>This is  paragraph</p>
+ </li>
+ <li>This will not get affected</li>
+ <p>this is para inside ul</p>
+ </ul>
+ <p>This is another paragraph</p>
+ </div>
+ </div>
+ <p>this is outside paragraph
+
+    </p>
+</body>
+
+</html>
